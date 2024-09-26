@@ -1,0 +1,53 @@
+---
+// const today = new Date();
+---
+
+<footer>
+	<section>
+		<div class="left">
+			<img src="/cubus-logo-white.png" width="120">
+			<p>Skútuvogi 11, 104 Reykjavík</p>
+			<p>Netfang: cubus@cubus.is</p>
+			<p>Reikningur: reikningar@cubus.is</p>
+			<p>Sími: 421-2920</p>
+			<div><a href="https://www.facebook.com/cubus.is/" target="_blank" rel="noopener noreferrer"><br>
+				<img title="Cubus-Facebook" src="https://cubus.is/wp-content/uploads/2020/06/fb-icon.png" alt="Facebook"><br>
+			</a></div>
+		</div>
+		<div class="right">
+			<img class="hidden" src="/cubus-logo-white.png" width="120">
+			<p>Kt: 640415-1420</p>
+			<p>VSK Nr: 120240</p>
+		</div>
+	</section>
+</footer>
+<style>
+	footer {
+		padding: 2em 1em 6em 1em;
+		background: var(--bg-dark);
+		color: rgb(var(--gray));
+	}
+	
+	.hidden {
+		visibility: hidden;
+	}
+	
+	section {
+		display: flex;
+		justify-content: space-around;
+	}
+	
+	.social-links {
+		display: flex;
+		justify-content: center;
+		gap: 1em;
+		margin-top: 1em;
+	}
+	.social-links a {
+		text-decoration: none;
+		color: rgb(var(--gray));
+	}
+	.social-links a:hover {
+		color: rgb(var(--gray-dark));
+	}
+</style>
