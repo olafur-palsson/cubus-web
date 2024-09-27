@@ -13,6 +13,7 @@ const lausnir = defineCollection({
 		banner: z.string().optional(),
 		background: z.string().optional(),
 		backgroundColor: z.string().optional(),
+		bottomImage: z.string().optional(),
 	}),
 });
 

@@ -7,7 +7,7 @@ import FormattedDate from '../components/FormattedDate.astro';
 
 type Props = CollectionEntry<'lausnir'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage, banner, background, backgroundColor } = Astro.props as Props;
+const { title, description, pubDate, bottomImage, updatedDate, heroImage, banner, background, backgroundColor } = Astro.props as Props;
 const backgroundUrl = `url("${background}"`
 ---
 
@@ -83,6 +83,7 @@ const backgroundUrl = `url("${background}"`
 					<slot />
 				</div>
 			</article>
+			<img src={bottomImage}>
 		</main>
 		<Footer />
 	</body>

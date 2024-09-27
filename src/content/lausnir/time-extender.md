@@ -6,6 +6,7 @@ heroImage: '/tx-tile-480.jpg'
 banner: '/timeextender-banner.png'
 background: '/TX-Back-light.jpg'
 backgroundColor: '#ED7403aa'
+bottomImage: '/timeextender-info.png'
 ---
 
 # Vöruhús gagna á einfaldan og skilvirkan hátt
@@ -30,3 +31,4 @@ Lausnin byggir á sterkum grunni Microsoft SQL Server en færir þér einfalt vi
 * __Hraði:__ Með því að sameina öll gögn frá CRM, ERP og öðrum kerfum myndast engir flöskuhálsar sem tryggir hraðari úrvinnslu skýrslna.
 
 Í stuttu máli, TimeXtender uppfyllir __alla kosti þess að vera með vöruhús gagna – bara miklu hraðar.__
+
