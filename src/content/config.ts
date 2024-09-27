@@ -10,6 +10,9 @@ const lausnir = defineCollection({
 		pubDate: z.coerce.date(),
 		updatedDate: z.coerce.date().optional(),
 		heroImage: z.string().optional(),
+		banner: z.string().optional(),
+		background: z.string().optional(),
+		backgroundColor: z.string().optional(),
 	}),
 });
 

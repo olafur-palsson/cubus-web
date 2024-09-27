@@ -3,8 +3,10 @@ title: 'Time Extender'
 description: 'TimeXtender einfaldar uppbyggingu og rekstur vöruhúsa gagna til muna með einföldu viðmóti og hámarks sjálfvirkni'
 pubDate: 'Jul 08 2022'
 heroImage: '/tx-tile-480.jpg'
+banner: '/timeextender-banner.png'
+background: '/TX-Back-light.jpg'
+backgroundColor: '#ED7403aa'
 ---
-
 
 # Vöruhús gagna á einfaldan og skilvirkan hátt
 TimeXtender er þekkt sem leiðandi í þróun hugbúnaðar til að byggja upp vöruhús gagna og OLAP teninga með skilvirkari hætti en áður þekktist. Með aukinni sjálfvirkni TimeXtender er unnt að stytta þróunartíma og einfalda rekstur vöruhúss gagna til muna.
